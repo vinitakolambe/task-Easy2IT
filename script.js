@@ -42,7 +42,7 @@ projectCards.forEach((card) => {
   observer.observe(card);
 });
 
-projectCards = document.querySelectorAll(".project-card");
+//projectCards = document.querySelectorAll(".project-card");
 
 projectCards.forEach((card) => {
   card.addEventListener("click", () => {
@@ -54,7 +54,7 @@ projectCards.forEach((card) => {
   });
 });
 
-projectCards = document.querySelectorAll(".project-card");
+//projectCards = document.querySelectorAll(".project-card");
 
 projectCards.forEach((card) => {
   card.addEventListener("click", () => {
@@ -65,4 +65,5 @@ projectCards.forEach((card) => {
     card.classList.toggle("active");
   });
 });
+
 
